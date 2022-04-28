@@ -1,10 +1,169 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title> </title>
-  </head>
-  <body>
+  <title>Curriculum vitae</title>
+  <meta charset="utf-8">
+  <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="cv-container">
+      <div class="left-column">
+        <img class="portait" src="data:image/jpeg;base64,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" />
+        <div class="section">
+          <p>
+            <i class="icon fab fa-linkedin text-darkblue"></i> Mohamed Sidi-Kada 
+          </p>
+        </div>
+        <div class="section">
+          <h2>À PROPOS</h2>
+          <p>
+            Étudiant ingénieur ESTIA -
+À la recherche d'une
+alternance d'une durée de 2
+ans à partir de Septembre
+2022, une mission de
+technicien avec un projet
+d’études, de réalisation ou
+d’ingénierie dans les
+domaines de la conception, de
+l'organisation industrielle et
+des technologies numériques.
+
+          </p>
+          <p>
+            De nature débrouillard et indépendant dans mon travail, j’aime apprendre de nouvelles technologies, passer du temps à résoudre des problèmes.
+          </p>
+        </div>
+        <div class="section">
+          <h2>COMPÉTENCES</h2>
+          <ul class="skills">
+            <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>Pack Office</strong></li>
+            <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>Bootstrap</strong></li>
+            <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>HTML5 </li>
+            <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>Javascript</strong></li>
+            <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>MultiSIM</strong></li>
+            <li><i class="icon fas fa-check-circle text-darkblue"></i> <strong>LabView</strong></li>
+            <li><i class="icon fas fa-check-circle text-darkblue"></i> OnShape</li>
+       
+            <li><i class="icon fas fa-check-circle text-darkblue"></i> MySQL</li>
+            <li><i class="icon fas fa-check-circle text-darkblue"></i> Git &#124; Github</li>
+          </ul>
+        </div>
+        <div class="section">
+          <h2>Langues</h2>
+          <p>
+            Français, langue maternelle
+            <br>
+            Anglais, compétence professionnelle
+            <br>
+            Espagnol, compétence professionnelle
+            <br>
+            Arabe, débutant
+          </p>
+        </div>
+        <div class="section">
+          <h2>Centres d'intérêt</h2>
+          <p>
+            Sport
+            <br>
+            Voyage 
+            <br>
+           Humanitaire
+        
+            <br>
+            Informatique en général
+          </p>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="header">
+          <h2>Mohamed <span class="text-blue text-uppercase">Sidi-Kada</span></h2>
+          <p>Etudiant ingénieur ESTIA</p>
+          <ul class="infos">
+            <li><i class="icon fas fa-at text-blue"></i> <a href="mohamed.sidi-kada@etu.estia.fr">mohamed.sidi-kada@etu.estia.fr</a></li>
+            <li><i class="icon fas fa-phone text-blue"></i> ##</li>
+            <li><i class="icon fas fa-map-marker-alt text-blue"></i> Lille</li>
+          </ul>
+        </div>
+        <div class="content">
+          <div class="section">
+            <h2>Expériences <br><span class="text-blue">professionelles</span></h2>
+            <p>
+              <strong>2015 <i class="fas fa-long-arrow-alt-right"></i> 2021</strong>
+              <br>
+              Fullstack Developer à temps plein chez <em>Webadev SPRL</em>
+            </p>
+            <ul class="experience-list">
+              <li>Réalisations de sites web, d’e-shops, d’interfaces et d’applications web sous Angular et Bootstrap</li>
+              <li>Intégration de templates Photoshop, Illustrator, Sketch, Figma</li>
+              <li>Animations CSS / JS</li>
+              <li>Responsive design</li>
+              <li>UI / UX Design</li>
+              <li>Projets sous npm et Webpack</li>
+              <li>Collaboration avec d’autres studios graphique (Studio Debie, SOL,…)</li>
+              <li>Optimisation des performances</li>
+              <li>Développement de templates et de modules réutilisables</li>
+              <li>Projets en équipe, utilisation quotidienne de SVN, Git et Github</li>
+            </ul>
+          </div>
+          <div class="section">
+            <p>
+              <strong>2021</strong>
+              <br>
+              Freelance en activité
+            </p>
+            <ul class="experience-list">
+              <li>Freelance Front-end Developer</li>
+              <li>Unity Developer / Sound Designer</li>
+            </ul>
+          </div>
+          <div class="section">
+            <h2>Études <br><span class="text-blue">& formations</span></h2>
+            <p>
+              <strong>2015 <i class="fas fa-long-arrow-alt-right"></i> 2019</strong>
+              <br>
+              <em>Bachelier en Informatique de Gestion</em>, Diplômé, Institut Saint Laurent
+            </p>
+            <p>
+              <strong>2015</strong>
+              <br>
+              <em>STE-Formations Informatiques</em>, Formation qualifiante de Web Developer
+            </p>
+            <p>
+              <strong>2013 <i class="fas fa-long-arrow-alt-right"></i> 2014</strong>
+              <br>
+              <em>Bachelier en Sciences humaines</em>, Haute École de Liège
+            </p>
+            <p>
+              <strong>2009 <i class="fas fa-long-arrow-alt-right"></i> 2013</strong>
+              <br>
+              <em>Bachelier en Psychologie</em>, Université de Liège
+            </p>
+            <p>
+              <strong>2002 <i class="fas fa-long-arrow-alt-right"></i> 2009</strong>
+              <br>
+              <em>CESS</em>, Institut Notre-Dame de Jupille
+            </p>
+          </div>
+          <div class="section">
+            <h2>Autres <br><span class="text-blue">expériences</span></h2>
+            <p>
+              Permis B, possession d’une voiture
+              <br>
+              Animateur pendant 6 ans
+              <br>
+              Brevet d’animateur de Centre de Vacances
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
     
-  </body>
+
 </html>
